@@ -5,6 +5,7 @@ import AdminIndex from './pages/AdminIndex'
 import Tree from './pages/Tree'
 import FormContainer from './pages/Form'
 import DynamicFormContainer from './components/DynamicForm'
+import EditableTable from './components/EditTable';
 
 export default function App() {
     return (
@@ -16,6 +17,7 @@ export default function App() {
                 <Route path='/tree' component={Tree} />
                 <Route path='/form' component={FormContainer} />
                 <Route path='/dynamic' component={DynamicFormContainer} />
+                <Route path='/editableTable' component={EditableTable} />
             </BrowserRouter>
         </div>
     )
