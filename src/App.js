@@ -6,6 +6,7 @@ import Tree from './pages/Tree'
 import FormContainer from './pages/Form'
 import DynamicFormContainer from './components/DynamicForm'
 import EditableTable from './components/EditTable';
+import AddAuth from './components/AddAuth';
 
 export default function App() {
     return (
@@ -18,6 +19,7 @@ export default function App() {
                 <Route path='/form' component={FormContainer} />
                 <Route path='/dynamic' component={DynamicFormContainer} />
                 <Route path='/editableTable' component={EditableTable} />
+                <Route path='/addAuth' component={AddAuth} />
             </BrowserRouter>
         </div>
     )
